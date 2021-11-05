@@ -1,8 +1,6 @@
-# WP-Indigo - [Demo](https://demo.vitathemes.com/indigo/) | [Download](https://wordpress.org/themes/wp-indigo/)
+# WP-Indigo - [Original](https://github.com/vitathemes/wp-indigo)
 
 Indigo is a modern WordPress theme with a simple yet elegant design. This minimal theme is suitable for almost any type of website and perfect for personal blogs and portfolios. While it is minimal and lightweight, it is responsive, flexible, customizable with WordPress customizer, and has a clean optimized code.
-
-![Home Page](screenshot.png)
 
 ## Features
 
