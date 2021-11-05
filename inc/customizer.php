@@ -206,14 +206,6 @@ if( function_exists( 'kirki' ) ) {
 		'section'  => 'socials',
 		'priority' => 10,
 	] );
-	
-	Kirki::add_field( 'wp_indigo_theme', [
-		'type'     => 'link',
-		'settings' => 'github',
-		'label'    => esc_html__( 'Github', 'wp-indigo' ),
-		'section'  => 'socials',
-		'priority' => 10,
-	] );
 
 	Kirki::add_field( 'wp_indigo_theme', [
 		'type'     => 'text',
@@ -328,7 +320,22 @@ if( function_exists( 'kirki' ) ) {
 		'section'  => 'socials',
 		'priority' => 10,
 	] );
-
+	
+	Kirki::add_field( 'wp_indigo_theme', [
+		'type'     => 'link',
+		'settings' => 'kofi',
+		'label'    => __( 'Ko-fi', 'wp-indigo' ),
+		'section'  => 'socials',
+		'priority' => 10,
+	] );
+	
+	Kirki::add_field( 'wp_indigo_theme', [
+		'type'     => 'link',
+		'settings' => 'github',
+		'label'    => __( 'Github', 'wp-indigo' ),
+		'section'  => 'socials',
+		'priority' => 10,
+	] );
 
 
 	/*------------------------------------*\

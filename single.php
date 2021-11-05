@@ -21,7 +21,7 @@ get_header();
 			// Display Side bar if current page was not a single of portfolios
 			if(is_active_sidebar( 'wp-indigo-primary-sidebar' )){
 
-				if(get_theme_mod( 'sidebar_display', true )) {
+				if(get_theme_mod( 'sidebar_display', false )) {
 					if ('portfolios' != get_post_type()) get_sidebar();
 				}
 				

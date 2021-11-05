@@ -31,7 +31,16 @@
                 <div class="c-footer__copy <?php wp_indigo_get_footer_menu_class(); ?>">
 
                     <div class="c-footer__copy__author-info">
-                        <?php echo esc_html__( 'WP-Indigo by', 'wp-indigo' ); ?>
+                        <?php echo esc_html__( 'Web redesign by', 'wp-indigo' ); ?>
+
+                        <a class="c-footer__link h5 u-link--secondary"
+                            href="<?php echo esc_url( 'http://bezathecat.com/' ); ?>">
+                            <?php echo esc_html__( 'BezaTheCat /ᐠ｡  ᳕｡ᐟ\/ ' , 'wp-indigo'); ?>
+                        </a>
+                    </div>
+					
+                    <div class="c-footer__copy__author-info">
+                        <?php echo esc_html__( 'WP-Indigo Themes by', 'wp-indigo' ); ?>
 
                         <a class="c-footer__link h5 u-link--secondary"
                             href="<?php echo esc_url( 'http://vitathemes.com/' ); ?>">

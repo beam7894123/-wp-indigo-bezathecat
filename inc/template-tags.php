@@ -127,7 +127,6 @@ if ( ! function_exists( 'wp_indigo_socials_links' ) ) :
 		$wp_indigo_twitter   		=  get_theme_mod( 'twitter', "" );
 		$wp_indigo_instagram 		=  get_theme_mod( 'instagram', "" );
 		$wp_indigo_linkedin  		=  get_theme_mod( 'linkedin', "" );
-		$wp_indigo_github    		=  get_theme_mod( 'github', "" );
 		$wp_indigo_mail   			=  get_theme_mod( 'mail', "" );
 		$wp_indigo_pinterest    	=  get_theme_mod( 'pinterest', "" );
 		$wp_indigo_youtube    		=  get_theme_mod( 'youtube', "" );
@@ -142,12 +141,14 @@ if ( ! function_exists( 'wp_indigo_socials_links' ) ) :
 		$wp_indigo_lanyrd    		=  get_theme_mod( 'lanyrd', "" );
 		$wp_indigo_dribbble    		=  get_theme_mod( 'dribbble', "" );
 		$wp_indigo_behance    		=  get_theme_mod( 'behance', "" );
+		$wp_indigo_kofi    			=  get_theme_mod( 'kofi', "" );
+		$wp_indigo_github   		=  get_theme_mod( 'github', "" );
 
 
 		// If variable was not empty will display the icons
-		$wp_indigo_social_variables  = array($wp_indigo_facebook,$wp_indigo_twitter,$wp_indigo_instagram,$wp_indigo_linkedin,$wp_indigo_github,
+		$wp_indigo_social_variables  = array($wp_indigo_facebook,$wp_indigo_twitter,$wp_indigo_instagram,$wp_indigo_linkedin,
 		$wp_indigo_mail, $wp_indigo_pinterest ,$wp_indigo_youtube ,$wp_indigo_spotify , $wp_indigo_gitlab,$wp_indigo_lastfm ,$wp_indigo_stackoverflow ,$wp_indigo_quora ,$wp_indigo_reddit ,$wp_indigo_medium ,
-		$wp_indigo_vimeo, $wp_indigo_lanyrd,$wp_indigo_dribbble ,$wp_indigo_behance
+		$wp_indigo_vimeo, $wp_indigo_lanyrd,$wp_indigo_dribbble ,$wp_indigo_behance,$wp_indigo_kofi,$wp_indigo_github
 		) ;
 
 		// Check if one of the variables are not empty 
@@ -178,10 +179,6 @@ if ( ! function_exists( 'wp_indigo_socials_links' ) ) :
 
 			if ( $wp_indigo_linkedin ) {
 				echo sprintf( '<a href="%s" aria-label="%s" class="c-social-share__item" target="_blank"><span class="dashicons dashicons-linkedin"></span></a>', esc_url( $wp_indigo_linkedin ), esc_html__( 'Linkedin', 'wp-indigo' ) );
-			}
-
-			if ( $wp_indigo_github ) {
-				echo sprintf( '<a href="%s" aria-label="%s" class="c-social-share__item" target="_blank"><span class="iconify" data-icon="ant-design:github-filled" data-inline="false"></span></a>', esc_url( $wp_indigo_github ), esc_html__( 'Github', 'wp-indigo' ) );
 			}
 
 			if ( $wp_indigo_mail ) {
@@ -239,6 +236,15 @@ if ( ! function_exists( 'wp_indigo_socials_links' ) ) :
 			if ( $wp_indigo_lanyrd ) {
 				echo sprintf( '<a href="%s" aria-label="%s" class="c-social-share__item" target="_blank"><span class="iconify" data-icon="cib:lanyrd" data-inline="false"></span></a>', esc_url( $wp_indigo_lanyrd ), esc_html__( 'lanyrd', 'wp-indigo' ) );
 			}
+			
+			if ( $wp_indigo_kofi ) {
+				echo sprintf( '<a href="%s" aria-label="%s" class="c-social-share__item" target="_blank"><span class="iconify" data-icon="cib:ko-fi" data-inline="false"></span></a>', esc_url( $wp_indigo_kofi ), esc_html__( 'kofi', 'wp-indigo' ) );
+			}
+			
+			if ( $wp_indigo_github ) {
+				echo sprintf( '<a href="%s" aria-label="%s" class="c-social-share__item" target="_blank"><span class="iconify" data-icon="cib:github" data-inline="false"></span></a>', esc_url( $wp_indigo_kofi ), esc_html__( 'github', 'wp-indigo' ) );
+			}
+
 
 			echo '</div>';
 		}
