@@ -242,7 +242,7 @@ if ( ! function_exists( 'wp_indigo_socials_links' ) ) :
 			}
 			
 			if ( $wp_indigo_github ) {
-				echo sprintf( '<a href="%s" aria-label="%s" class="c-social-share__item" target="_blank"><span class="iconify" data-icon="cib:github" data-inline="false"></span></a>', esc_url( $wp_indigo_kofi ), esc_html__( 'github', 'wp-indigo' ) );
+				echo sprintf( '<a href="%s" aria-label="%s" class="c-social-share__item" target="_blank"><span class="iconify" data-icon="cib:github" data-inline="false"></span></a>', esc_url( $wp_indigo_github ), esc_html__( 'github', 'wp-indigo' ) );
 			}
 
 
