@@ -150,13 +150,14 @@ if ( ! function_exists( 'wp_indigo_socials_links' ) ) :
 		$wp_indigo_behance    		=  get_theme_mod( 'behance', "" );
 		$wp_indigo_telegram    		=  get_theme_mod( 'telegram', "" );
 		$wp_indigo_codepen    		=  get_theme_mod( 'codepen', "" );
+		$wp_indigo_buymeacoffee    	=  get_theme_mod( 'buymeacoffee', "" );
 
 
 		// If variable was not empty will display the icons 
 		// (ADD New Social Networks Icon HERE!)
 		$wp_indigo_social_variables  = array($wp_indigo_facebook,$wp_indigo_twitter,$wp_indigo_instagram,$wp_indigo_linkedin,$wp_indigo_github,
 		$wp_indigo_mail, $wp_indigo_pinterest ,$wp_indigo_youtube ,$wp_indigo_spotify , $wp_indigo_gitlab,$wp_indigo_lastfm ,$wp_indigo_stackoverflow ,$wp_indigo_quora ,$wp_indigo_reddit ,$wp_indigo_medium ,
-		$wp_indigo_vimeo, $wp_indigo_lanyrd,$wp_indigo_dribbble ,$wp_indigo_behance,$wp_indigo_telegram,$wp_indigo_codepen
+		$wp_indigo_vimeo, $wp_indigo_lanyrd,$wp_indigo_dribbble ,$wp_indigo_behance,$wp_indigo_telegram,$wp_indigo_codepen,$wp_indigo_buymeacoffee
 		) ;
 
 		// Check if one of the variables are not empty
@@ -253,9 +254,13 @@ if ( ! function_exists( 'wp_indigo_socials_links' ) ) :
 			if ( $wp_indigo_telegram ) {
 				echo sprintf( '<a href="%s" aria-label="%s" class="c-social-share__item" target="_blank"><span class=" c-social-share__icon iconify" data-icon="bx:bxl-telegram"  data-inline="false"></span></a>', esc_url( $wp_indigo_telegram ), esc_html__( 'Telegram', 'wp-indigo' ) );
 			}
-
+			
 			if ( $wp_indigo_codepen ) {
 				echo sprintf( '<a href="%s" aria-label="%s" class="c-social-share__item" target="_blank"><span class=" c-social-share__icon iconify" data-icon="akar-icons:codepen-fill" data-inline="false"></span></a>', esc_url( $wp_indigo_codepen ), esc_html__( 'Codepen', 'wp-indigo' ) );
+			}
+
+			if ( $wp_indigo_buymeacoffee ) {
+				echo sprintf( '<a href="%s" aria-label="%s" class="c-social-share__item" target="_blank"><span class=" c-social-share__icon iconify" data-icon="bx:coffee-togo" data-inline="false"></span></a>', esc_url( $wp_indigo_buymeacoffee ), esc_html__( 'buymeacoffee', 'wp-indigo' ) );
 			}
 
 			echo '</div>';

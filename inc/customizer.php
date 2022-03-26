@@ -376,6 +376,14 @@ if( function_exists( 'kirki' ) ) {
 			'priority' => 210,
 		]
 	);
+	new \Kirki\Field\URL(
+		[
+			'settings' => 'buymeacoffee',
+			'label'    => __( 'Buy me a coffee', 'wp-indigo' ),
+			'section'  => 'socials',
+			'priority' => 220,
+		]
+	);
 
 	/*------------------------------------*\
 	  #Theme Colors
