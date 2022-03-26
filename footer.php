@@ -31,26 +31,35 @@
                 <div class="c-footer__copy <?php wp_indigo_get_footer_menu_class(); ?>">
 
                     <div class="c-footer__copy__author-info">
-                        <?php echo esc_html__( 'Web redesign by', 'wp-indigo' ); ?>
+                <!-- ADD MAOW HERE! -->
+                        <?php echo esc_html__( '(a small) Redesign by', 'wp-indigo' ); ?>
 
                         <a class="c-footer__link h5 u-link--secondary"
                             href="<?php echo esc_url( 'http://bezathecat.com/' ); ?>">
-                            <?php echo esc_html__( 'BezaTheCat /ᐠ｡  ᳕｡ᐟ\/ ' , 'wp-indigo'); ?>
+                            <?php echo esc_html__( 'BezaTheCat ᗜ ̫ ᗜ ' , 'wp-indigo'); ?>
                         </a>
                     </div>
-					
-                    <div class="c-footer__copy__author-info">
-                        <?php echo esc_html__( 'WP-Indigo Themes by', 'wp-indigo' ); ?>
 
+                    <div class="c-footer__copy__author-info"> 
+                <!-- END ADD MAOW HERE! -->
+                        <?php echo esc_html__( 'WP-Indigo Themes by', 'wp-indigo' ); ?>
+                        
                         <a class="c-footer__link h5 u-link--secondary"
                             href="<?php echo esc_url( 'http://vitathemes.com/' ); ?>">
                             <?php echo esc_html__( 'VitaThemes' , 'wp-indigo'); ?>
                         </a>
                     </div>
 
+
+                    <?php if( get_theme_mod('footer_menu_pos' , 'center') !== 'center' ) :?>
                     <div class="c-footer__menu">
+                        <?php endif; ?>
+
                         <?php wp_indigo_get_footer_menu('wp-indigo-primary-footer'); ?>
+
+                        <?php if( get_theme_mod('footer_menu_pos' , 'center') !== 'center' ) : ?>
                     </div>
+                    <?php endif; ?>
 
                 </div>
 
