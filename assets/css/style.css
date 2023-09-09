@@ -1763,7 +1763,7 @@ select {
       flex-wrap: wrap; } }
   @media only screen and (min-width: 980px) {
     .c-single {
-      width: 555px; } }
+      width: 833px; } }
 
 /* Entry Header */
 .c-single__entry-header {
@@ -1783,10 +1783,10 @@ select {
   width: 100%; }
   @media only screen and (min-width: 590px) and (max-width: 979px) {
     .c-single__entry-header__content {
-      width: 555px; } }
+      width: 833px; } }
   @media only screen and (min-width: 980px) {
     .c-single__entry-header__content {
-      width: 555px; } }
+      width: 833px; } }
 
 .c-single__entry-title {
   text-align: center;
@@ -1799,7 +1799,7 @@ select {
   text-transform: capitalize; }
   @media only screen and (min-width: 980px) {
     .c-single__entry-title {
-      max-width: 555px;
+      max-width: 833px;
       margin-bottom: 24px; } }
 
 .c-single__entry-meta {
@@ -1858,7 +1858,7 @@ select {
 /* Content */
 @media only screen and (min-width: 590px) and (max-width: 979px) {
   .c-single__entry-content {
-    max-width: 555px; } }
+    max-width: 833px; } }
 
 .c-single__entry-content ul {
   letter-spacing: 0.03em; }
@@ -1913,10 +1913,10 @@ select {
   border-top: 1px solid #e6e6e6; }
   @media only screen and (min-width: 590px) and (max-width: 979px) {
     .c-single__post-nav {
-      width: 555px; } }
+      width: 833px; } }
   @media only screen and (min-width: 980px) {
     .c-single__post-nav {
-      width: 555px; } }
+      width: 833px; } }
   .c-single__post-nav nav {
     width: 100%; }
 
@@ -2014,10 +2014,10 @@ select {
   flex-wrap: wrap; }
   @media only screen and (min-width: 590px) and (max-width: 979px) {
     .comments-area {
-      width: 555px; } }
+      width: 833px; } }
   @media only screen and (min-width: 980px) {
     .comments-area {
-      width: 555px; } }
+      width: 833px; } }
 
 .comment {
   margin-top: 30px; }
@@ -2316,8 +2316,8 @@ ol.children {
   opacity: var(--wp_indigo_animation); }
   @media only screen and (min-width: 980px) {
     .c-main {
-      width: 555px;
-      max-width: 555px;
+      width: 833px;
+      max-width: 833px;
       padding: 98px 0px 64px 0px; } }
 
 .c-main--centered {
@@ -2348,7 +2348,7 @@ ol.children {
   width: 100%; }
   @media only screen and (min-width: 980px) {
     .c-main--single-portfolios {
-      width: 555px; } }
+      width: 833px; } }
 
 .c-main--404 {
   width: 100%;
@@ -2384,7 +2384,7 @@ ol.children {
   margin: 0px; }
   @media only screen and (min-width: 980px) {
     .c-main__page-title {
-      max-width: 555px; } }
+      max-width: 833px; } }
   @media only screen and (min-width: 980px) {
     .c-main__page-title {
       max-width: 100%; } }
@@ -2575,7 +2575,7 @@ ol.children {
 
 .c-footer__wrapper {
   width: 100%;
-  max-width: 555px;
+  max-width: 833px;
   position: relative; }
 
 .c-footer__content {
