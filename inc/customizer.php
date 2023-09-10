@@ -385,6 +385,15 @@ if( function_exists( 'kirki' ) ) {
 		]
 	);
 
+    new \Kirki\Field\URL(
+        [
+            'settings' => 'bskyapp',
+            'label'    => __( 'bsky.app', 'wp-indigo' ),
+            'section'  => 'socials',
+            'priority' => 220,
+        ]
+    );
+
 	/*------------------------------------*\
 	  #Theme Colors
 	\*------------------------------------*/
