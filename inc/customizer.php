@@ -390,7 +390,7 @@ if( function_exists( 'kirki' ) ) {
             'settings' => 'bskyapp',
             'label'    => __( 'bsky.app', 'wp-indigo' ),
             'section'  => 'socials',
-            'priority' => 220,
+            'priority' => 230,
         ]
     );
 
