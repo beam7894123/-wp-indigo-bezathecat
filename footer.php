@@ -28,10 +28,14 @@
                 </div>
                 <?php endif; ?>
 
+                <!-- ADD MAOW HERE! -->
                 <div class="c-footer__copy <?php wp_indigo_get_footer_menu_class(); ?>">
+                    <div class="c-footer__copy__author-info">
+						<?php echo esc_html__( ' Meowing through the internet since 2021-', 'wp-indigo' ), date('Y'); ?>
+                    </div>
 
                     <div class="c-footer__copy__author-info">
-                <!-- ADD MAOW HERE! -->
+
                         <?php echo esc_html__( '(a small) Redesign by', 'wp-indigo' ); ?>
 
                         <a class="c-footer__link h5 u-link--secondary"
